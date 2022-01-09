@@ -43,13 +43,13 @@
         border-bottom: 1px solid;
 
         &:hover{
-            color: $color-red;
+            color: $color-yellow;
         }
         }
     }
 }
 .container2{
-    background-color: $color-red;
+    background-color: $color-yellow;
     transition: all 0.5s ease;
     a{
         color: $color-secondary;

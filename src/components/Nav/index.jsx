@@ -29,15 +29,15 @@ const Nav = ({change}) => {
     return(
         <div className={`container ${change > 40 ? 'container2' : null}`}>
             <div className = 'container__logo'>
-            {show && change > 40 ? 
+            {/* {show && change > 40 ? 
             <NavHashLink smooth to = '#home' onClick = {disappear}>&#123; Maca Montes de Oca &#125;</NavHashLink>
-            : null}
+            : null} */}
             </div> 
             <div className='container__links'>
-                <NavHashLink smooth to = '#about' onClick = {handleClick}>About</NavHashLink>
-                <NavHashLink smooth to = '#projects' onClick = {handleClick}>Projects</NavHashLink>
-                <NavHashLink smooth to = '#skills' onClick = {handleClick}>Skills</NavHashLink>
-                <NavHashLink smooth to = '#contact' onClick = {scrollToBottom}>Contact</NavHashLink>
+                <NavHashLink smooth to = '#about' onClick = {handleClick}>Sobre mi</NavHashLink>
+                <NavHashLink smooth to = '#projects' onClick = {handleClick}>Proyectos</NavHashLink>
+                <NavHashLink smooth to = '#skills' onClick = {handleClick}>Habilidades</NavHashLink>
+                <NavHashLink smooth to = '#contact' onClick = {scrollToBottom}>Contacto</NavHashLink>
             </div>
         </div>
     )

@@ -26,16 +26,17 @@ const Contact = () =>{
     return(
         <footer id= 'contact' className='contact_container'>
             <p className='text'>
-                LET'S GET IN TOUCH !
-                <p>
-                FILL THIS FORM AND I WILL GET BACK TO YOU
+                Si tienen dudas, sientanse libres de contactarme
+                <p className = 'text_2'>
+                    mail linkedin
+                {/* aca va el cuadrado con el logo del mail y el de linkedin */}
                 </p>
             </p>
             <form id='form' className='form_container' onSubmit={sendEmail}>
-                <input id='name' className='id_field' type='text' name='name' placeholder='NAME' onChange={handleChange} required/>
-                <input id='email' className='id_field' type='email' name='email' placeholder='E_MAIL' onChange={handleChange} required/>
-                <textarea id='message'className='id_field' type='text' name='message'placeholder='MESSAGE' onChange={handleChange}></textarea>
-                <input id='submit'className='id_field submit' type='submit' name='name' value='Send Email!'/>
+                <input id='name' className='id_field' type='text' name='name' placeholder='Nombre' onChange={handleChange} required/>
+                <input id='email' className='id_field' type='email' name='email' placeholder='Email' onChange={handleChange} required/>
+                <textarea id='message'className='id_field' type='text' name='message'placeholder='Mensaje' onChange={handleChange}></textarea>
+                <input id='submit'className='id_field submit' type='submit' name='name' value='ENVIAR!'/>
             </form>
             <div className='bottom_contact'>
                 Made with tons of patience &#128134;&#8205;&#9792;&#65039;  by Macarena Montes de Oca @ 2021

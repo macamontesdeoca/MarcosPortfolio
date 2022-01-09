@@ -1,7 +1,6 @@
 import React from 'react';
 import './index.scss';
-import coverVideo from "../../assets/black-background.mp4";
-import poster from '../../assets/poster.jpg';
+import coverImage from "../../assets/background_city.jpg";
 import { NavHashLink } from "react-router-hash-link";
 
 
@@ -13,15 +12,9 @@ const Home = () => {
          
         return (
             <div id='home' className='cover-container'>
-                <video
-                    className="cover-container__video"
-                    src={coverVideo}
-                    preload='none'
-                    playsinline
-                    poster={poster}
-                    autoPlay
-                    loop
-                    muted
+                <img
+                    className="cover-container__image"
+                    src={coverImage}
                 /> 
                 <h1 className = 'main'>Hi ! I'm Macarena</h1>
                 <div className='subtitle'>Full Stack Web Developer</div>

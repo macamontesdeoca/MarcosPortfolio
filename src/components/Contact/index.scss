@@ -15,8 +15,7 @@
       }
 }
 .text{
-    align-self: flex-start;
-    margin-left: 100px;
+    text-align: center;
     margin-top: 180px;
     font-family: $font-family-headers;
     font-size: 16px;
@@ -25,13 +24,16 @@
         margin-left: 25px;
       }
 }
+.text_2{
+    margin-top: 50px;
+}
 .form_container{
     display: flex;
     width:30vw;
     flex-direction: column;
-    justify-content: space-around;
+    align-content: center;
     margin-left: 480px;
-    margin-top: 60px;
+    margin-top: 40px;
     @media screen and (max-width: 715px) {
         width:90vw;
         margin-top: 30px;
