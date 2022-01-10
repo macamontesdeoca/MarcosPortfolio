@@ -7,9 +7,9 @@ const Projects = () =>{
     // const prueba = [1,2,3,4,5,6]
     return(
         <div id= 'projects' className='projects_container'>
-            <div className='projects_title'>
-                THESE ARE SOME OF THE PROJECTS THAT I'VE WORKED IN :
-            </div>
+            <u className='projects_title'>
+                Proyectos
+            </u>
             <div className='cards_container'>
                 {projects.map((item,index) =>
             <Project className = 'project_card' info={item}/>

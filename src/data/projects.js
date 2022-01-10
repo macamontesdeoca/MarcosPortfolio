@@ -1,39 +1,24 @@
 import almazen from '../assets/Almazen.png';
-import petbuddies from '../assets/petbuddies-xsmall.jpg';
+// import proyecto1 from '../../assets/CV-2021-ARG.pdf';
+// import proyecto2 from '../../assets/CV-2021-ARG.pdf'; poner en linkdeploy
 
 const projects = [
     {
-        title: 'AlmaZen',
+        title: 'Talentisimos',
         image: almazen,
-        description: 'E-commerce project made with Reactjs, Redux, Expressjs, PostgreSQL, Sequelize and Passport. Styles mostly with Sass, and some Material UI components.',
-        linkgithub:'https://github.com/macamontesdeoca/AlmaZen-Ecommerce',
-        linkdeploy:'https://almazenhenry-51bf6.web.app/'
+        description: 'Proyecto de Escuela de Música para hacer crecer el sector de "Cursos de Trompeta". Se trabajo desde la parte Estrategica a la realización de contenidos en redes sociales y campañas publicitarias en Google Ads, Facebook Ads y Campañas en Doppler.',
+        linkdeploy:'https://almazenhenry-51bf6.web.app/',
+        download: 'Proyecto Talentisimos'
 
     },
     {
-        title: 'PetBuddies',
-        image:petbuddies,
-        description: 'Mobile App made with TypeScript, React Native, Redux, Expressjs, MongoDB, Mongoose, and Firebase.',
-        linkgithub:'https://github.com/macamontesdeoca/PetBuddies',
-        linkdeploy:'https://github.com/macamontesdeoca/PetBuddies'
+        title: 'Portfolio de Marketing',
+        image: almazen,
+        description: 'Un porfolio recopilando Practicas hechas a diferentes "clientes". Desde la creación de un Customer Persona, vinculación de GTM y Google Analytics, reconocimiento de tono y personalidad de una marca y buenas practicas de optimización de una página web.',
+        linkdeploy:'https://almazenhenry-51bf6.web.app/',
+        download: 'Proyecto final Marketing'
 
-    },
-    // {
-    //     title: 'Worldwide Weather',
-    //     image:'',
-    //     description: 'Climate cards',
-    //     linkgithub:'3',
-    //     linkdeploy:'4'
-
-    // },
-    // {
-    //     title: 'Movies',
-    //     image:'',
-    //     description: 'Your favorite movies',
-    //     linkgithub:'5',
-    //     linkdeploy:'6'
-
-    // }
+    }
 ]
 
 export default projects;

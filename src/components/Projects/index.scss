@@ -2,71 +2,68 @@
 
 .projects_container{
     display:flex;
-    background-color: white;
+    flex-direction: column;
+    background-color: $color-primary;
     align-items: flex-start;
     justify-content: space-evenly;
     width: 100%;
     
 }
 .projects_title{
-    margin-bottom: 250px;
-    // background-color: transparent;
-    position: sticky;
-    top:10rem;
-    margin-top: 10rem;
-    font-family: $font-family-headers;
-    border: 2px solid black;
+    margin-left: 8%;
+    display: flex;
     padding: 10px;
-    background-color: $color-secondary;
-    color:burlywood;
+    color:$color-secondary;
+    font-family: $font-family;
+    font-size: 250%;
+    margin-top: 80px;
     @media screen and (max-width: 715px) {
         margin-bottom:90px;
       }
 
 }
 .cards_container{
-    height: 100%;
     display:flex;
-    flex-direction: column;
-    align-items: center;
-    flex: 0 0 50%;
-    margin-top: 8rem;
-    margin-bottom: 20px;;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 1rem;
+    margin-bottom: 20px;
     
 }
 .project_card{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px 20px 50px 20px; //arriba derecha abajo izquierda
-    max-height: 100%;
-    max-width: 85%;
 }
 .card_imagen{
     display: flex;
-    border: 2px solid black;
+    border: 7px solid black;
     height: auto;
-    max-width: 90%;
-    margin: 10px;    
+    max-width: 50%;
 }
 .card_title{
     padding:10px;
-    font-family:Verdana, sans-serif;
+    font-family:$font-family;
+    color:$color-secondary;
+    font-size: 150%;
 
 }
 .card_description{
     display:flex;
-    margin:0;
-    font-family:Verdana, sans-serif;
-    max-width: 90%;
+    font-family:$font-family;
+    color:$color-secondary;
+    padding: 5px;
+    border: 3px solid white;
+    max-width: 50%;
     text-align: justify;
     text-justify: inter-word;
     line-height: 25px;
 
 }
 .footer_links{
-    // margin-top: 15px;
-    color:black;
+    margin-top: 5px;
+    color:$color-secondary;
     padding:8px;
     &:hover{
         color: $color-yellow;

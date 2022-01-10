@@ -5,27 +5,19 @@ const Project = ({info}) => {
     return (
         <div className='project_card'>
             <img className='card_imagen' src={info.image} alt='Foto del proyecto'/>
-            <div className='card_title'>
+            <u className='card_title'>
             {info.title}
-            </div>
+            </u>
             <p className='card_description'> 
                 {info.description}
             </p>
             <footer className='footer_links'>
                 <a
                     className='footer_links'
-                    href={info.linkgithub}
-                    target="_blank"
-                    rel="noreferrer"
-                    >
-                    <i class="fab fa-github fa-lg">
-                    </i>
-                </a>
-                <a
-                    className='footer_links'
                     href={info.linkdeploy}
                     target="_blank"
                     rel="noreferrer"
+                    download={info.download}
                     >
                     <i class="fas fa-external-link-alt fa-lg"></i>
                 </a>
