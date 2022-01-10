@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.scss';
-import profile from '../../assets/fotoperfil.jpeg';
-import cv from '../../assets/CV-2021-ARG.pdf';
+import profile from '../../assets/foto-perfil-MV.jpg';
+import cv from '../../assets/Curriculum-MARCOS-VILLANUEVA.pdf';
 
 const About = () =>{
     return(
