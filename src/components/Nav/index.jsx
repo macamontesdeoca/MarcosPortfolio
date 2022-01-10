@@ -14,9 +14,6 @@ const Nav = ({change}) => {
           behavior: "smooth",
         });
       };
-    const disappear = () => {
-        setShow(false)
-    }
     var limit = false;
     if(change>40){
         limit=true;

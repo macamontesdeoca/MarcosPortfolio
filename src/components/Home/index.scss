@@ -41,21 +41,29 @@
     }
 }
 .name-container{
+  box-shadow:0px 0px 0px 10px $color-secondary inset;
   flex-direction: column;
   align-items: center;
   background-color: $color-primary;
+  margin-top: 70px;
   margin-bottom: 150px;
-  padding: 40px;
+  border: 20px solid;
+  border-color: $color-primary;
+  
 }
 .main {
   color: $color-secondary;
   font-size: 50px;
   text-align: center;
   font-family: $font-family;
-  font-weight: $font-weight-min;
   margin-bottom: 0%;
+  margin-top:auto;
+  padding: 5px 40px 5px 40px;
+  font-weight: $font-weight-heavy;
+  font-size: 440%;
 }
 .subtitle {
+  margin-top: -10px;
   color: $color-secondary;
   justify-content: center;
   text-align: center;
@@ -63,6 +71,7 @@
   font-family: $font-family;
   font-size: 20px;
   font-weight: $font-weight-min;
+  font-size: 150%;
 }
 .last_text{
   font-family: $font-family;
@@ -71,6 +80,8 @@
   color:$color-secondary;
   padding:30px;
   scroll-behavior: smooth;
+  font-size: 150%;
+  font-weight: $font-weight-heavy;
 }
 .arrow{
   position:absolute;

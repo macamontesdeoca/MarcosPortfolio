@@ -15,6 +15,7 @@ const Home = () => {
                 <img
                     className="cover-container__image"
                     src={coverImage}
+                    alt='NY city background'
                 />
                 <div className='name-container'>
                     <h1 className = 'main'>MARCOS VILLANUEVA</h1>

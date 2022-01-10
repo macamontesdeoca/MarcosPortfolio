@@ -6,33 +6,33 @@ import cv from '../../assets/CV-2021-ARG.pdf';
 const About = () =>{
     return(
         <div id= 'about' className='about_container'>
-            <div className='about_title'>
-                A QUICK INTRODUCTION !
-            </div>
+            <u className='about_title'>
+                Un poco sobre mi
+            </u>
             <div className='about_content'>
+            <div className='description_container'>
+                <div className='text_box'>
+                    <u className='info_title'>
+                        "Una persona detallista e ingeniosa."
+                    </u>
+                    <p className='info'>
+                        Soy alguien que se puede adaptar facilmente a cualquier grupo, ya sea de trabajo o simplemente social, me gusta charlar bastante y crear vinculos con la gente, opino que es importante tener buena relacion con las personas para superar desafios tanto en el ambito laboral como en lo personal.
+                    </p>
+                    <u className='info_title'>
+                        Marketing Digital
+                    </u>
+                    <p className='info'>
+                        En la pandemia del año 2020 me adentré en todo el mundo digital y llamo todo mi interes el ámbito del Marketing Digital, realizando  un curso de 6 meses en Digital House me di cuenta lo mucho que me gusta, desde la parte estrategica a la creación de contenidos o campañas publicitarias.
+                    </p>
+                </div>
+                </div>
                 <div className='picture_container'>
+                    <div className='picture_box'>
                     <img src={profile} alt='Foto de perfil' className='profile_picture'/>
-                    <p className='picture_container_title'>(Guess how many takes this took) </p>
-                </div>
-                <div className='description_container'>
-                    <div className='info_title'>
-                    How would I describe myself:
+                    <p className='picture_container_title'>Descargar CV</p>
                     </div>
-                    <p className='info'>
-                    Me in 140 characters : Full Stack Web Developer &#128105;&#127997;&#8205;&#128187; | Chemical Engineer &#128105;&#127996;&#8205;&#128300;. Born and raised in La Plata, Argentina &#127462;&#127479; . Logical thinker, passionate about problem solving
-                    </p>
-                    <p className='info'>
-                        My favorites:
-                        <ul>
-                            <li>Phrase : 'Life's too short to be afraid'</li>
-                            <li>Music : From Coldplay to Maluma, anything in between</li>
-                            <li>Food: Milanesa con puré !</li>
-                            <li>Book: Harry Potter lover ⚡ </li>
-                            <li>Series: Sherlock - Grey's Anatomy - Brooklyn 99</li>
-                        </ul>
-                    </p>
                 </div>
-                <div className='media_links'>
+                {/* <div className='media_links'>
                         <span className='media_links_title'> Find me on </span>
                         <a
                         className='media_links_icons'
@@ -69,7 +69,7 @@ const About = () =>{
                         <i class="fas fa-file-pdf fa-lg"></i>
                         </a>
 
-                    </div>
+                    </div> */}
             </div>
         </div>
     )
