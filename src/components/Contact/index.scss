@@ -24,8 +24,23 @@
         margin-left: 25px;
       }
 }
-.text_2{
+.box_icons{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width:20%;
+    height: 8%;
+    justify-content: center;
+    border: 2px solid black;
     margin-top: 50px;
+}
+.icon{
+    padding: 5px 30px 5px 30px;
+    text-decoration: none;
+    color: $color-primary;
+    &:hover{
+        color: white;
+    }
 }
 .form_container{
     display: flex;

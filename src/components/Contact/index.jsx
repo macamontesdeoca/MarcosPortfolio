@@ -27,11 +27,25 @@ const Contact = () =>{
         <footer id= 'contact' className='contact_container'>
             <p className='text'>
                 Si tienen dudas, sientanse libres de contactarme
-                <p className = 'text_2'>
-                    mail linkedin
-                {/* aca va el cuadrado con el logo del mail y el de linkedin */}
-                </p>
             </p>
+            <div className='box_icons'>
+            <a
+            className='icon'
+            href="https://www.linkedin.com/in/marcos-villanueva-/"
+            target="_blank"
+            rel="noreferrer"
+            >
+            <i class="fab fa-linkedin fa-3x"></i>
+            </a>
+            <a
+            className='icon'
+            href="https://www.linkedin.com/in/macarena-montes-de-oca/"
+            target="_blank"
+            rel="noreferrer"
+            >
+            <i class="far fa-envelope fa-3x"></i>
+            </a>
+            </div>
             <form id='form' className='form_container' onSubmit={sendEmail}>
                 <input id='name' className='id_field' type='text' name='name' placeholder='Nombre' onChange={handleChange} required/>
                 <input id='email' className='id_field' type='email' name='email' placeholder='Email' onChange={handleChange} required/>
