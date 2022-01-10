@@ -15,12 +15,12 @@ const Contact = () =>{
 
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs.sendForm('service_6r8fqrk','contact_form', e.target, 'user_jnuNyqdL4g6g4yjowUStl')
+        emailjs.sendForm('service_do8eurl','contact_form_marcos', e.target, 'user_jnuNyqdL4g6g4yjowUStl')
         .then((result) => {
             e.target.reset();
             return swal('Thank you !','Your email was succesfully sent','success')
         }, (error) => {
-            return swal('Sorry! Something went wrong','You can still contact me on: macamdeoca@gmail.com','error')
+            return swal('Sorry! Something went wrong','You can still contact me on: marcosvillanuevalp@gmail.com','error')
         })
     }
     return(
@@ -39,7 +39,7 @@ const Contact = () =>{
             </a>
             <a
             className='icon'
-            href="https://www.linkedin.com/in/macarena-montes-de-oca/"
+            href="mailto: marcosvillanuevalp@gmail.com"
             target="_blank"
             rel="noreferrer"
             >
