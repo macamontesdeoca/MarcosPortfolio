@@ -29,7 +29,13 @@ const About = () =>{
                 <div className='picture_container'>
                     <div className='picture_box'>
                     <img src={profile} alt='Foto de perfil' className='profile_picture'/>
-                    <p className='picture_container_title'>Descargar CV</p>
+                    <a 
+                    className='picture_container_title'
+                    href={cv}
+                    target="_blank"
+                    rel="noreferrer"
+                    download='CV Marcos Villanueva'>
+                        Descargar CV</a>
                     </div>
                 </div>
                 {/* <div className='media_links'>

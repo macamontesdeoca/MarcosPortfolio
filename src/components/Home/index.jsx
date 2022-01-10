@@ -8,7 +8,7 @@ import { NavHashLink } from "react-router-hash-link";
 
 const Home = () => {
 
-    document.title = 'Maca Montes de Oca';
+    document.title = 'Marcos Villanueva';
          
         return (
             <div id='home' className='cover-container'>

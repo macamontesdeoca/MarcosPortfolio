@@ -1,86 +1,87 @@
 import React from 'react';
 import './index.scss';
-import redux from '../../assets/iconredux.png';
-import express from '../../assets/expressjs.png';
-import postgre from '../../assets/iconpostgre.png';
-import mongodb from '../../assets/mongodbicon.png';
-import typescript from '../../assets/typescripticon.svg';
 
 
 const Skills = () =>{
     return(
         <div id= 'skills' className='skills_container'>
-            <div className='skills_title'>
-                MY TECHNOLOGICAL STACK
-            </div>
+            <u className='skills_title'>
+                Habilidades
+            </u>
             <div className='skills_info'>
-                <div id='ladoizq'>
-                    <div className='seccion primero'>
-                        <div className = 'arrow-pointer'>
-                            <p className='skill_title'>FrontEnd</p>
-                        </div>
-                    </div>
-                    <div className='seccion'>
+                <div id='arriba' className='skills_horizontal'>
+                    <div className='columnas_nuevas'>
                         <div className='arrow-pointer'>
-                            <p className='skill_title'>BackEnd</p>
+                            Estrategia
                         </div>
+                            <ul className='unordered_list'>
+                                <li className = 'list_item'>Objetivos SMART y Funnel de Conversion</li>
+                                <li className = 'list_item'>Audiencias y Canales</li>
+                                <li className = 'list_item'>Customer Journey Map</li>
+                                <li className = 'list_item'>Metricas y KPIs</li>
+                                <li className = 'list_item'>Plan de Medios</li>
+                            </ul>
                     </div>
-                    <div className='seccion'>
+                    <div className='columnas_nuevas'>
                         <div className='arrow-pointer'>
-                        <p className='skill_title'>Database</p>
+                            Tecnologia
                         </div>
+                            <ul className='unordered_list'>
+                                <li className = 'list_item'>Analitica y GTM</li>
+                                <li className = 'list_item'>Google Analytics</li>
+                                <li className = 'list_item'>UTMs</li>
+                                <li className = 'list_item'>Eventos en GTM</li>
+                            </ul>
                     </div>
-                    <div className='seccion'>
+                    <div className='columnas_nuevas'>
                         <div className='arrow-pointer'>
-                        <p className='skill_title'>Learning..</p>
+                            Contenidos
                         </div>
+                            <ul className='unordered_list'>
+                                <li className = 'list_item'>Personalidad y Tono de Marca</li>
+                                <li className = 'list_item'>Insights</li>
+                                <li className = 'list_item'>Territorios</li>
+                                <li className = 'list_item'>Storytelling</li>
+                                <li className = 'list_item'>Redes Sociales para Audiencias y Marcas específicas</li>
+                                <li className = 'list_item'>Analítica y Reporting en Social Media</li>
+                            </ul>
                     </div>
                 </div>
-                <div id='ladoder'>
-                    <h5 className='titulos_responsive'>FrontEnd</h5>
-                    <div id='frontend'className='rectangle primero'>
-                        <p className='listado'>
-                            <span className='next-to-icon'>HTML</span>
-                            <i class="fab fa-html5 fa-lg"></i>
-                            <span className='next-to-icon'>CSS</span> 
-                            <i class="fab fa-css3-alt fa-lg"></i>
-                            <span className='next-to-icon'>React</span>
-                            <i class="fab fa-react fa-lg"></i>
-                            <span className='next-to-icon'>Redux</span>
-                            <img alt = 'redux icon' className='iconoredux'src={redux}></img>
-                        </p>
+                <div id='abajo' className='skills_horizontal'>
+                <div className='columnas_nuevas'>
+                        <div className='arrow-pointer'>
+                            SEO
                         </div>
-                    <h5 className='titulos_responsive'>BackEnd</h5>
-                    <div id='backend'className='rectangle'>
-                        <p className='listado'>
-                            <span className='next-to-icon'>NodeJS</span>
-                            <i class="fab fa-node-js fa-lg"></i>
-                            <span className='next-to-icon'>Express</span>
-                            <img alt = 'express icon' className='iconoexpress'src={express}></img>
-                        </p>
+                            <ul className='unordered_list'>
+                                <li className = 'list_item'>Factores ON Page y OFF Page</li>
+                                <li className = 'list_item'>Search Console</li>
+                                <li className = 'list_item'>SEO Minion, MOZ, Link Building</li>
+                            </ul>
                     </div>
-                    <h5 className='titulos_responsive'>Database</h5>
-                    <div id='database'className='rectangle'>
-                        <p className='listado'>
-                            <span className='next-to-icon'>PostgreSQL</span>
-                            <img alt = 'postgre icon' className='iconopostgre'src={postgre}></img>
-                        </p>
+                    <div className='columnas_nuevas'>
+                        <div className='arrow-pointer'>
+                            Contacto Directo
+                        </div>
+                            <ul className='unordered_list'>
+                                <li className = 'list_item'>Conocimiento de Campañas de envios de Email Masivos en Doppler</li>
+                                <li className = 'list_item'>UTMs en Campañas de Email</li>
+                                <li className = 'list_item'>Whatsapp Business</li>
+                            </ul>
                     </div>
-                    <h5 className='titulos_responsive'>Learning...</h5>
-                    <div id='Aprendiendo' className='rectangle'>
-                        <p className='listado'>
-                            <span className='next-to-icon'>MongoDB</span>
-                            <img alt = 'mongodb icon' className='iconopostgre'src={mongodb}></img>
-                            <span className='next-to-icon'>Typescript</span>
-                            <img alt = 'ts icon' className='iconots'src={typescript}></img>
-                            <span className='next-to-icon'>Python</span>
-                            <i class="fab fa-python fa-lg"></i>
-
-                        </p>
+                    <div className='columnas_nuevas'>
+                        <div className='arrow-pointer'>
+                            Estrategia
+                        </div>
+                            <ul className='unordered_list'>
+                                <li className = 'list_item'>Objetivos SMART y Funnel de Conversion</li>
+                                <li className = 'list_item'>Audiencias y Canales</li>
+                                <li className = 'list_item'>Customer Journey Map</li>
+                                <li className = 'list_item'>Metricas y KPIs</li>
+                                <li className = 'list_item'>Plan de Medios</li>
+                            </ul>
                     </div>
 
                 </div>
-
             </div>
         </div>
     )
