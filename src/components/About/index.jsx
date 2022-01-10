@@ -29,53 +29,19 @@ const About = () =>{
                 <div className='picture_container'>
                     <div className='picture_box'>
                     <img src={profile} alt='Foto de perfil' className='profile_picture'/>
+                    <div className='footer_picture'>
                     <a 
                     className='picture_container_title'
                     href={cv}
                     target="_blank"
                     rel="noreferrer"
                     download='CV Marcos Villanueva'>
-                        Descargar CV</a>
+                        Descargar CV
+                    {/* <i class="fas fa-download fa-lg"></i> */}
+                    </a>
+                    </div>
                     </div>
                 </div>
-                {/* <div className='media_links'>
-                        <span className='media_links_title'> Find me on </span>
-                        <a
-                        className='media_links_icons'
-                        href="https://github.com/macamontesdeoca"
-                        target="_blank"
-                        rel="noreferrer"
-                        >
-                        <i class="fab fa-github fa-lg">
-                        </i>
-                        </a>
-                        <a
-                        href="https://www.linkedin.com/in/macarena-montes-de-oca/"
-                        target="_blank"
-                        rel="noreferrer"
-                        >
-                        <i class="fab fa-linkedin fa-lg"></i>
-                        </a>
-                        <a
-                        className='media_links_icons'
-                        href="https://api.whatsapp.com/send?phone=5492214769734&lang=en"
-                        target="_blank"
-                        rel="noreferrer"
-                        >
-                        <i class="fab fa-whatsapp fa-lg"></i>
-                        </a>
-                        <span className='media_links_title'> Download my CV </span>
-                        <a
-                        // className='media_links_icons'
-                        href={cv}
-                        target="_blank"
-                        rel="noreferrer"
-                        download='CV Macarena Montes de Oca'
-                        >
-                        <i class="fas fa-file-pdf fa-lg"></i>
-                        </a>
-
-                    </div> */}
             </div>
         </div>
     )

@@ -69,23 +69,24 @@
   text-align: center;
   align-items: center;
   font-family: $font-family;
-  font-size: 20px;
-  font-weight: $font-weight-min;
-  font-size: 150%;
+  font-size: 25px;
+  font-weight: 300;
 }
 .last_text{
   font-family: $font-family;
   position:absolute;
   bottom:80px;
+  margin-left: 25px;
   color:$color-secondary;
   padding:30px;
   scroll-behavior: smooth;
   font-size: 150%;
-  font-weight: $font-weight-heavy;
+  font-weight: 400;
 }
 .arrow{
   position:absolute;
   bottom:40px;
+  margin-left: 20px;
   color: white;
   padding:10px;
   font-family: $font-family;

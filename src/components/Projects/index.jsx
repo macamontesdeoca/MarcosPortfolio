@@ -4,7 +4,6 @@ import Project from './project.jsx';
 import projects from '../../data/projects';
 
 const Projects = () =>{
-    // const prueba = [1,2,3,4,5,6]
     return(
         <div id= 'projects' className='projects_container'>
             <u className='projects_title'>
@@ -14,11 +13,6 @@ const Projects = () =>{
                 {projects.map((item,index) =>
             <Project className = 'project_card' info={item}/>
                 )}
-            {/* <Project className='project_card'/>
-            <Project className='project_card'/>
-            <Project className='project_card'/>
-            <Project className='project_card'/>
-            <Project className='project_card'/> */}
             </div>
 
         </div>
