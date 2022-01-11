@@ -70,7 +70,7 @@ const Skills = () =>{
                     </div>
                     <div className='columnas_nuevas'>
                         <div className='arrow-pointer'>
-                            Estrategia
+                            Campañas
                         </div>
                             <ul className='unordered_list'>
                                 <li className = 'list_item'>Objetivos SMART y Funnel de Conversion</li>
