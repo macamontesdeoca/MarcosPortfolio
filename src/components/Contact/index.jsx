@@ -52,9 +52,9 @@ const Contact = () =>{
                 <textarea id='message'className='id_field' type='text' name='message'placeholder='Mensaje' onChange={handleChange}></textarea>
                 <input id='submit'className='id_field submit' type='submit' name='name' value='ENVIAR!'/>
             </form>
-            <div className='bottom_contact'>
+            {/* <div className='bottom_contact'>
                 Made with tons of patience &#128134;&#8205;&#9792;&#65039;  by Macarena Montes de Oca @ 2021
-            </div>
+            </div> */}
         </footer>
     )
 }
