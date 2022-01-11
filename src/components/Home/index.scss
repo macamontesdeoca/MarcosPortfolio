@@ -25,7 +25,7 @@
     justify-content: center;
     align-items: center;
     @media screen and (max-width: 715px) {
-      background-color: black;
+
     }
   
     &__image {
@@ -34,10 +34,11 @@
       height: 100vh;
       position: absolute;
       z-index: -1;
+      // @media screen and (max-width: 715px) {
+      //   width: max-content;
+      //   height: max-content;
+      // }
 
-      @media screen and (max-width: 715px) {
-        display: none;
-      }
     }
 }
 .name-container{
@@ -49,6 +50,9 @@
   margin-bottom: 150px;
   border: 20px solid;
   border-color: $color-primary;
+  // @media screen and (max-width: 715px) {
+  //   max-width:80%;
+  // }
   
 }
 .main {
@@ -61,6 +65,9 @@
   padding: 5px 40px 5px 40px;
   font-weight: $font-weight-heavy;
   font-size: 440%;
+  @media screen and (max-width: 715px) {
+    font-size:300%;
+  }
 }
 .subtitle {
   margin-top: -10px;
