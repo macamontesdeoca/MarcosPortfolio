@@ -8,10 +8,6 @@
     height: 100vh;
     width: 100%;
     background-color: $color-primary;
-    @media screen and (max-width: 715px) {
-        margin-top: 200px;
-        min-height: 170vh;
-      }
 
 }
 .about_title{
@@ -22,22 +18,12 @@
     color:$color-secondary;
     font-family: $font-family;
     font-size: 250%;
-    @media screen and (max-width: 715px) {
-        margin-top: 10px;
-      }
-    
-
 }
 .about_content{
     margin: -20px 0px 0px 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    @media screen and (max-width: 715px) {
-        flex-direction: column;
-        max-height:100%;
-      }
-
 }
 .picture_box{
     display: flex;
@@ -52,9 +38,7 @@
     margin-right: 40px;
     margin-left: -70px;
     height: max-content;
-    @media screen and (max-width: 715px) {
-        width: 70%;
-      }
+
       &_title{
         display: flex;
         margin-top: 10px;
@@ -67,11 +51,7 @@
         &:hover{
             color: $color-yellow;
         }
-        @media screen and (max-width: 715px) {
-            margin-left: 0;
-            padding:5px;
-          }
-    }
+      }
 }
 .profile_picture{
     border: 10px solid white;
@@ -80,9 +60,9 @@
     height: 400px;
     margin: 24px 24px 0px 24px;
     @media screen and (max-width: 715px) {
-        width:190px;
-        height:250px;
-      }
+        width:30%
+    }
+
 }
 .footer_picture{
     display: flex;
@@ -104,9 +84,7 @@
     padding:10px;
     margin: auto;
     height: max-content;
-    @media screen and (max-width: 715px) {
-        width: 70%;
-      }
+
 }
 .text_box{
     border: 10px solid white;
@@ -130,8 +108,4 @@
     text-justify: inter-word;
     color:$color-secondary;
     font-family: $font-family;
-    @media screen and (max-width: 715px) {
-        line-height: 18px;
-      }
-
 }

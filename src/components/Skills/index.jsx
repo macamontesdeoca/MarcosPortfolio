@@ -73,7 +73,7 @@ const Skills = () =>{
                             Campañas
                         </div>
                             <ul className='unordered_list'>
-                                <li className = 'list_item'>Campañas Publicitarias en Google Ads y Facebook Ads</li>
+                                <li className = 'list_item'>Campañas Publicitarias Google Ads y Facebook Ads</li>
                                 <li className = 'list_item'>Google Ads Search y Display</li>
                                 <li className = 'list_item'>Social ADS Facebook e Instagram</li>
                             </ul>
