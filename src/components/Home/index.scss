@@ -24,6 +24,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @media screen and (max-width: 715px) {
+      background: url('../../assets/background_city.jpg');
+      width: 100vw;
+    }
   
     &__image {
       object-fit: cover;
@@ -31,6 +35,9 @@
       height: 100vh;
       position: absolute;
       z-index: -1;
+      @media screen and (max-width: 715px) {
+        display:none;
+      }
     }
 }
 .name-container{
@@ -42,6 +49,9 @@
   margin-bottom: 150px;
   border: 20px solid;
   border-color: $color-primary;
+  @media screen and (max-width: 715px) {
+    max-width: 90vw;
+  }
 
 }
 .main {
@@ -54,6 +64,9 @@
   padding: 5px 40px 5px 40px;
   font-weight: $font-weight-heavy;
   font-size: 440%;
+  @media screen and (max-width: 715px) {
+    font-size: 24px;
+  }
 
 }
 .subtitle {
