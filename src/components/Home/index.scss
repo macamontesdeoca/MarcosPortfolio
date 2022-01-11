@@ -24,9 +24,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    @media screen and (max-width: 715px) {
+    // @media screen and (max-width: 715px) {
 
-    }
+    // }
   
     &__image {
       object-fit: cover;
@@ -65,9 +65,9 @@
   padding: 5px 40px 5px 40px;
   font-weight: $font-weight-heavy;
   font-size: 440%;
-  @media screen and (max-width: 715px) {
-    font-size:300%;
-  }
+  // @media screen and (max-width: 715px) {
+  //   font-size:300%;
+  // }
 }
 .subtitle {
   margin-top: -10px;
