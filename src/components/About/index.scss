@@ -5,9 +5,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    height: 100vh;
+    // height: 100vh;
     width: 100%;
     background-color: $color-primary;
+    @media screen and (max-width: 715px){
+    }
 
 }
 .about_title{
@@ -18,17 +20,31 @@
     color:$color-secondary;
     font-family: $font-family;
     font-size: 250%;
+    @media screen and (max-width: 715px) {
+        margin: auto;
+        margin-bottom: 15px;
+
+    }
 }
 .about_content{
     margin: -20px 0px 0px 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    @media screen and (max-width: 715px) {
+        flex-direction: column;
+        margin: auto;
+
+    }
 }
 .picture_box{
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media screen and (max-width: 715px) {
+        max-width: 100%;
+        margin: auto;
+    }
 }
 .picture_container{
     display:flex;
@@ -38,6 +54,12 @@
     margin-right: 40px;
     margin-left: -70px;
     height: max-content;
+    @media screen and (max-width: 715px) {
+        margin: auto;
+        width: 100vw;
+        padding: 0%;
+        
+    }
 
       &_title{
         display: flex;
@@ -51,6 +73,11 @@
         &:hover{
             color: $color-yellow;
         }
+        @media screen and (max-width: 715px){
+            margin: auto;
+            padding-bottom: 10%;
+            
+        }
       }
 }
 .profile_picture{
@@ -60,7 +87,9 @@
     height: 400px;
     margin: 24px 24px 0px 24px;
     @media screen and (max-width: 715px) {
-        width:30%
+        margin: auto;
+        max-width: 80vw;
+        max-height: 70vh;
     }
 
 }
@@ -70,6 +99,10 @@
     align-items: center;
     justify-content: center;
     margin: auto;
+    @media screen and (max-width: 715px) {
+        flex-direction: column;
+    }
+    
 }
 .fa-download{
     margin-top: 10px;
@@ -84,6 +117,9 @@
     padding:10px;
     margin: auto;
     height: max-content;
+    @media screen and (max-width: 715px){
+        margin: 0;
+    }
 
 }
 .text_box{
@@ -93,6 +129,9 @@
     flex-direction: column;
     align-self: center;
     width:70%;
+    @media screen and (max-width: 715px) {
+        margin: auto;
+    }
 
 }
 .info_title{
