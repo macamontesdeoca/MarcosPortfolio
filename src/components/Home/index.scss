@@ -27,6 +27,7 @@
     @media screen and (max-width: 715px) {
       background: url('../../assets/background_city.jpg');
       width: 100vw;
+      height: 100vh;
     }
   
     &__image {
@@ -51,6 +52,7 @@
   border-color: $color-primary;
   @media screen and (max-width: 715px) {
     max-width: 90vw;
+    align-self: center;
   }
 
 }
@@ -89,6 +91,9 @@
   scroll-behavior: smooth;
   font-size: 150%;
   font-weight: 400;
+  @media screen and (max-width: 715px) {
+    margin: auto;
+  }
 }
 .arrow{
   position:absolute;
@@ -98,4 +103,8 @@
   padding:10px;
   font-family: $font-family;
   animation: bounce 2s linear infinite;
+  @media screen and (max-width: 715px) {
+    position: absolute;
+    margin-left: -20px;
+  }
 }
