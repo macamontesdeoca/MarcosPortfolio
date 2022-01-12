@@ -7,7 +7,7 @@ const projects = [
     {
         title: 'Talentisimos',
         image: talentisimos,
-        description: 'Proyecto de Escuela de Música para hacer crecer el sector de "Cursos de Trompeta". Se trabajo desde la parte Estrategica a la realización de contenidos en redes sociales y campañas publicitarias en Google Ads, Facebook Ads y Campañas en Doppler.',
+        description: 'Proyecto de Escuela de Música para hacer crecer el sector de "Cursos de Trompeta". Se trabajó desde la parte Estratégica a la realización de contenidos en redes sociales y campañas publicitarias en Google Ads, Facebook Ads y Campañas en Doppler.',
         linkdeploy: tpfinal,
         download: 'Proyecto Final Integrador - Talentisimos'
 
@@ -15,7 +15,7 @@ const projects = [
     {
         title: 'Portfolio de Marketing',
         image: portfoliomkt,
-        description: 'Un porfolio recopilando Practicas hechas a diferentes "clientes". Desde la creación de un Customer Persona, vinculación de GTM y Google Analytics, reconocimiento de tono y personalidad de una marca y buenas practicas de optimización de una página web.',
+        description: 'Un porfolio recopilando Prácticas hechas a diferentes "clientes". Desde la creación de un Customer Persona, vinculación de GTM y Google Analytics, reconocimiento de tono y personalidad de una marca y buenas prácticas de optimización de una página web.',
         linkdeploy: pdfportfolio,
         download: 'Portfolio Marketing'
 

@@ -26,7 +26,7 @@ const Contact = () =>{
     return(
         <footer id= 'contact' className='contact_container'>
             <p className='text'>
-                Si tienen dudas, sientanse libres de contactarme
+                Si tienen dudas, siéntanse libres de contactarme
             </p>
             <div className='box_icons'>
             <a

@@ -31,7 +31,7 @@ const Nav = ({change}) => {
             : null} */}
             </div> 
             <div className='container__links'>
-                <NavHashLink smooth to = '#about' onClick = {handleClick}>Sobre mi</NavHashLink>
+                <NavHashLink smooth to = '#about' onClick = {handleClick}>Sobre mí</NavHashLink>
                 <NavHashLink smooth to = '#projects' onClick = {handleClick}>Proyectos</NavHashLink>
                 <NavHashLink smooth to = '#skills' onClick = {handleClick}>Habilidades</NavHashLink>
                 <NavHashLink smooth to = '#contact' onClick = {scrollToBottom}>Contacto</NavHashLink>

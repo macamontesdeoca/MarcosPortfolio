@@ -15,7 +15,7 @@ const Skills = () =>{
                             Estrategia
                         </div>
                             <ul className='unordered_list'>
-                                <li className = 'list_item'>Objetivos SMART y Funnel de Conversion</li>
+                                <li className = 'list_item'>Objetivos SMART y Funnel de Conversión</li>
                                 <li className = 'list_item'>Audiencias y Canales</li>
                                 <li className = 'list_item'>Customer Journey Map</li>
                                 <li className = 'list_item'>Metricas y KPIs</li>
@@ -27,7 +27,7 @@ const Skills = () =>{
                             Tecnologia
                         </div>
                             <ul className='unordered_list'>
-                                <li className = 'list_item'>Analitica y GTM</li>
+                                <li className = 'list_item'>Analítica y GTM</li>
                                 <li className = 'list_item'>Google Analytics</li>
                                 <li className = 'list_item'>UTMs</li>
                                 <li className = 'list_item'>Eventos en GTM</li>
@@ -63,7 +63,7 @@ const Skills = () =>{
                             Contacto Directo
                         </div>
                             <ul className='unordered_list'>
-                                <li className = 'list_item'>Campañas de envios de Email Masivos en Doppler</li>
+                                <li className = 'list_item'>Campañas de envíos de Email Masivos en Doppler</li>
                                 <li className = 'list_item'>UTMs en Campañas de Email</li>
                                 <li className = 'list_item'>Whatsapp Business</li>
                             </ul>

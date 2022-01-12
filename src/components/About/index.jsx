@@ -7,7 +7,7 @@ const About = () =>{
     return(
         <div id= 'about' className='about_container'>
             <u className='about_title'>
-                Un poco sobre mi
+                Un poco sobre mí
             </u>
             <div className='about_content'>
             <div className='description_container'>
@@ -16,13 +16,13 @@ const About = () =>{
                         "Una persona detallista e ingeniosa."
                     </u>
                     <p className='info'>
-                        Soy alguien que se puede adaptar facilmente a cualquier grupo, ya sea de trabajo o simplemente social, me gusta charlar bastante y crear vinculos con la gente, opino que es importante tener buena relacion con las personas para superar desafios tanto en el ambito laboral como en lo personal.
+                        Soy alguien que se puede adaptar fácilmente a cualquier grupo, ya sea de trabajo o simplemente social, me gusta charlar bastante y crear vínculos con la gente, opino que es importante tener buena relación con las personas para superar desafíos tanto en el ámbito laboral como en lo personal.
                     </p>
                     <u className='info_title'>
                         Marketing Digital
                     </u>
                     <p className='info'>
-                        En la pandemia del año 2020 me adentré en todo el mundo digital y llamo todo mi interes el ámbito del Marketing Digital, realizando  un curso de 6 meses en Digital House me di cuenta lo mucho que me gusta, desde la parte estrategica a la creación de contenidos o campañas publicitarias.
+                        En la pandemia del año 2020 me adentré en todo el mundo digital y llamó todo mi interés el ámbito del Marketing Digital, realizando un curso de 6 meses en Digital House me di cuenta lo mucho que me gusta, desde la parte estratégica a la creación de contenidos o campañas publicitarias.
                     </p>
                 </div>
                 </div>
