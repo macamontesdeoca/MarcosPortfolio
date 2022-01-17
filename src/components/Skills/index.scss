@@ -91,6 +91,7 @@
     @media screen and (max-width: 715px){
       flex-direction: column;
       width: 70vw;
+      margin-bottom: 1%;
     }
 
 }
@@ -137,5 +138,9 @@
     text-justify: auto;
     // max-height: 164px;
     height:fit-content;
+    @media screen and (max-width: 715px) {
+      text-align: left;
+      line-height: normal;
+    }
 }
 
