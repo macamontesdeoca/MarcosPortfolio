@@ -12,11 +12,11 @@ const Home = () => {
          
         return (
             <div id='home' className='cover-container'>
-                <img
+                {/* <img
                     className="cover-container__image"
                     src={coverImage}
                     alt='NY city background'
-                />
+                /> */}
                 <div className='name-container'>
                     <h1 className = 'main'>MARCOS VILLANUEVA</h1>
                     <p className='subtitle'>Marketing Digital</p>
